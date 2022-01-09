@@ -1,6 +1,6 @@
-<p align="center"><img src="src/logo.png" alt="logo"></p>
+<p align="center"><img src="src/logo dsd.png" alt="logo"></p>
 
-<h1 align="center">Dork Scrapy Download</h1> 
+<h1 align="center">Dork Scraping Download</h1> 
 
 DSD possibilita a raspagem de links por meio de dorks e os armazena em um arquivo `csv`. Posterior a essa etapa concluida o download dos arquivos será realizado.
 
