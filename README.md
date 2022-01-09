@@ -1,4 +1,4 @@
-<p align="center"><img src="logo.png" alt="dsd logo"></p>
+<p align="center"><img src="src/logo.png" alt="logo"></p>
 
 <h1 align="center">Dork Scrapy Download</h1> 
 
