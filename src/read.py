@@ -1,3 +1,7 @@
+# @name: Dork Scraping Download
+# @repo: https://github.com/0moura/DSD/
+# @author: 0moura
+
 import csv
 import os
 from urllib.parse import urlparse

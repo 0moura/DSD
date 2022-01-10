@@ -1,11 +1,15 @@
+# @name: Dork Scraping Download
+# @repo: https://github.com/0moura/DSD/
+# @author: 0moura
+
 import csv
 import time
 from termcolor import colored
 import requests
 
 def download_files(url, path, file_error):
-    user_agent = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'}
+
+    user_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'}
     time.sleep(2)
     try:
         response = requests.get(url, headers=user_agent, timeout=4)

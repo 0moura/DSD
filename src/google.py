@@ -1,5 +1,8 @@
-import csv
+# @name: Dork Scraping Download
+# @repo: https://github.com/0moura/DSD/
+# @author: 0moura
 
+import csv
 from serpapi import GoogleSearch
 
 def g_search(url, pagination, name_file, key):
